@@ -15,7 +15,7 @@ func main() {
 	flag.Parse()
 	c := client.NewClient(client.Addr(addr))
 
-
+	go c.GetMessage()
 	for {
 		unitTest.KeepAlive(c)
 	}

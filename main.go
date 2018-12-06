@@ -2,8 +2,8 @@ package main
 
 import (
 	"flag"
-	"github.com/dy-dayan/testClient/client"
-	"github.com/dy-dayan/testClient/unitTest"
+	"github.com/dy-dayan/test-Client/client"
+	"github.com/dy-dayan/test-Client/unit-test"
 )
 
 

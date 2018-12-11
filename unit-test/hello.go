@@ -31,7 +31,7 @@ func Hello(c client.Client){
 
 	reqBodyOne := access.ReqBody{
 		Service:              "greeter",
-		Method:               "hello",
+		Method:               "Greeter.Hello",
 		Content:              content,
 	}
 

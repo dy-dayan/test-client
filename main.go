@@ -17,7 +17,7 @@ func main() {
 
 	go c.GetMessage()
 	for {
-		unitTest.KeepAlive(c)
+		unitTest.Hello(c)
 	}
 }
 
